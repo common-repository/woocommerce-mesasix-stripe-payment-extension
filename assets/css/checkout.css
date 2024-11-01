@@ -1,0 +1,164 @@
+.no-logged {margin: 20px auto;padding: 20px;background: #4E57A4;color: #fff;border-top:1px solid #CCCEE2;}
+.no-logged h1 {border-bottom: 1px solid #CCCCCC;margin-bottom: 15px;margin-left: 0;}
+.nli {border-top: 1px solid #CCCEE2;}
+.nli-form {padding-right: 40px;}
+div.nli-form label {display: inline-block;width: 116px;}
+.input {width: 250px;border: 3px solid transparent;}
+.login-remember {padding-bottom: 14px;border-bottom: 1px solid #CCCCCC;}
+#wp-submit {
+	background: #a7e5fd;
+	background: -moz-linear-gradient(top, #a7e5fd 0%, #17b9fa 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7e5fd), color-stop(100%,#17b9fa));
+	background: -webkit-linear-gradient(top, #a7e5fd 0%,#17b9fa 100%);
+	background: -o-linear-gradient(top, #a7e5fd 0%,#17b9fa 100%);
+	background: -ms-linear-gradient(top, #a7e5fd 0%,#17b9fa 100%);
+	background: linear-gradient(to bottom, #a7e5fd 0%,#17b9fa 100%);
+}
+.form-registered {width: 450px;margin: 0 auto;}
+.form-registered h2 {border-bottom: 1px solid #CCCCCC;padding-bottom: 10px;}
+.form-row {position: relative;height: 50px;}
+.payment_method_mesasix_stripe .form-row input {position: absolute;
+left: 0;
+top: 0;
+right: 0;
+width: 100%;
+height: 37px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+-o-box-sizing: border-box;
+box-sizing: border-box;
+background: #fff;
+padding: 0 6px 2px 6px;
+margin: 0;
+font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+font-size: 15px;
+color: #000;
+-webkit-user-select: text;
+-moz-user-select: text;
+-ms-user-select: text;
+-o-user-select: text;
+user-select: text;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-appearance: none;
+-webkit-appearance: none;
+-ms-appearance: none;
+-o-appearance: none;
+appearance: none;
+border: 1px solid #cececf;
+border-top-color: #b5b5b6;
+border-bottom-color: #dededf;
+-webkit-box-shadow: inset 0 1px 1px rgba(124,124,127,0.1),0 1px 0 rgba(255,255,255,0.7),0 0 4px rgba(86,149,219,0);
+-moz-box-shadow: inset 0 1px 1px rgba(124,124,127,0.1),0 1px 0 rgba(255,255,255,0.7),0 0 4px rgba(86,149,219,0);
+-ms-box-shadow: inset 0 1px 1px rgba(124,124,127,0.1),0 1px 0 rgba(255,255,255,0.7),0 0 4px rgba(86,149,219,0);
+-o-box-shadow: inset 0 1px 1px rgba(124,124,127,0.1),0 1px 0 rgba(255,255,255,0.7),0 0 4px rgba(86,149,219,0);
+box-shadow: inset 0 1px 1px rgba(124,124,127,0.1),0 1px 0 rgba(255,255,255,0.7),0 0 4px rgba(86,149,219,0);
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+-ms-border-radius: 2px;
+-o-border-radius: 2px;
+border-radius: 2px;
+-webkit-transition: border-color .15s linear,box-shadow .15s linear;
+-moz-transition: border-color .15s linear,box-shadow .15s linear;
+-ms-transition: border-color .15s linear,box-shadow .15s linear;
+-o-transition: border-color .15s linear,box-shadow .15s linear;
+transition: border-color .15s linear,box-shadow .15s linear;}
+.stripe-form {background: #F5F5F7;padding: 20px;border: 1px solid rgba(124, 124, 127, 0.09);}
+.svg.icon {position: absolute;
+left: 8px;
+top: 9px;
+-webkit-transform-origin: 50% 50%;
+-webkit-transform-origin: 50% 50%;
+-moz-transform-origin: 50% 50%;
+-ms-transform-origin: 50% 50%;
+-o-transform-origin: 50% 50%;
+transform-origin: 50% 50%;
+pointer-events: none;}
+.payment_method_mesasix_stripe .form-row input {font-size: 14px;line-height: 1.4;font-family: 'Open Sans', sans-serif;}
+#stripe-submit, .blue-like-stripe {
+	background: #45b1e8;
+background-image: -webkit-linear-gradient(#45b1e8,#3097de);
+background-image: -moz-linear-gradient(#45b1e8,#3097de);
+background-image: -ms-linear-gradient(#45b1e8,#3097de);
+background-image: -o-linear-gradient(#45b1e8,#3097de);
+background-image: -webkit-linear-gradient(#45b1e8,#3097de);
+background-image: -moz-linear-gradient(#45b1e8,#3097de);
+background-image: -ms-linear-gradient(#45b1e8,#3097de);
+background-image: -o-linear-gradient(#45b1e8,#3097de);
+background-image: linear-gradient(#45b1e8,#3097de);
+height: 37px;
+border: 0;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+color: #fff;
+font-weight: bold;
+padding: 10px 20px;
+}
+input.blue-like-stripe {color: #fff;}
+.form-row label {display: none; color: #5b5b65;padding-left: 5px;}
+.noplaceholder .form-row input {top:20px;}
+.noplaceholder .form-row {height: 65px;}
+.noplaceholder label {display: block !important;}
+.noplaceholder .form-row .icon {top: 31px !important;}
+#payment-form {width: 400px;margin: 20px auto;}
+.bottom-cta, .shop_table, .woocommerce-message {border: 1px solid rgba(124,124,127,0.25);
+-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
+-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
+-ms-box-shadow: 0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
+-o-box-shadow: 0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
+box-shadow: 0 1px 0 rgba(255,255,255,0.7),inset 0 1px 0 rgba(255,255,255,0.7);
+color: #5b5b65;
+margin-top: 15px;
+display: block;
+font-size: 12px;
+padding: 10px;
+text-shadow: 0 1px 0 #fff;}
+#payment-form h1 {font-size: 20px;margin-top: 15px;}
+.icon img {width: 111%;margin-left: -2px;}
+.payment-errors div{color: rgb(228, 0, 0);}
+.default-page-content {border-top:1px solid #CCCEE2;}
+span.amount {font-size: 27px; color: #1393E1;}
+.cart-items {width: 100%;}
+.product-subtotal .amount {font-size: 17px;text-align: right;display: block;font-weight: bold;padding-right: 10px;}
+.product-price .amount {font-size: 17px;text-align: left;display: block;font-weight: bold;}
+.product-name a {color: #5b5b65;text-shadow: 0 1px 0 #fff;font-weight: 600;}
+.main-title {font-size: 26px !important;
+text-align: center;
+background: #f0f0f2;
+background-image: -webkit-linear-gradient(#f5f5f7,#e9e9ea);
+background-image: -moz-linear-gradient(#f5f5f7,#e9e9ea);
+background-image: -ms-linear-gradient(#f5f5f7,#e9e9ea);
+background-image: -o-linear-gradient(#f5f5f7,#e9e9ea);
+background-image: linear-gradient(#f5f5f7,#e9e9ea);
+border-top: 1px solid #fff;
+border-bottom: 1px solid #d3d3d4;
+-webkit-box-shadow: 0 1px 0 #fff;
+-moz-box-shadow: 0 1px 0 #fff;
+-ms-box-shadow: 0 1px 0 #fff;
+-o-box-shadow: 0 1px 0 #fff;
+box-shadow: 0 1px 0 #fff;
+padding: 18px;
+position: relative;
+top: -40px;
+width: 1000px;
+left: -303px;}
+table.bottom-cta {margin-top: 4px;display: table;}
+table.bottom-cta td {padding: 7px;}
+td.product-thumbnail {width: 72px;}
+.commerce-page-links {font-size: 15px;position: absolute;top: 24px;left: 15px;}
+.commerce-page-links a {color: #1393E1;text-shadow: 1px 1px #FFF;margin-right: 20px;}
+.commerce-page-links a:hover {text-decoration: underline;}
+.link-right {right: 15px;left: initial;}
+.vgs {margin-right: 3px;margin-top: -3px;}
+.cart-page .main-title {top: -23px;width: 1000px;left: -24px;}
+.shop_table {display: table;}
+.cart-page .woocommerce-message {border: 1px solid #DCDCDD;border-radius: 2px;box-shadow: none;}
+.with-spacing-half .half.right {padding-left: 5px;}
+.with-spacing-half .half.left {padding-right: 5px;}
+.account-page h3 {color: #4E57A4;font-size: 15px;letter-spacing: -1px;}
+.account-page h3 .edit {color: #4E57A4;font-size: 15px;letter-spacing: -1px;font-weight: normal;font-size: 11px;line-height: 20px;color: blue;text-decoration: underline;margin-left: 15px;}
+.woocommerce .page-thrive a.add_to_cart_button {background: #48C5FA;color: #4E57A4;text-shadow: none;border: 0;font-weight: 600;font-size: 13px;padding: 9px;}
+.woocommerce-page .cart-collaterals .cart_totals tr th, .woocommerce-page .cart-collaterals .cart_totals tr td {border-top: 1px solid #f7f6f7;}
+.shipping-calculator-form select {padding: 8px;}
+.shipping select {padding: 6px;font-weight: 600;font-family: 'Open Sans', sans-serif;}
